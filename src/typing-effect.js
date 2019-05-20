@@ -44,7 +44,7 @@ function blinkCursor(id) {
     setInterval(() => {
         length = el.innerText.length
         cursor = el.innerText.substr(length - 1, 1);
-        cursor = cursor === '|' ? '\u0020' : '|';
+        cursor = cursor === '|' ? '\u00A0' : '|';
 
         el.innerText = el.innerText.substr(0, length - 1) + cursor;
     }, delay)
