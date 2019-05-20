@@ -1,5 +1,5 @@
 let titleId = "landing-title";
-let titles = ["Software Developer", "Physicist", "Problem Solver"];
+let titles = ["Science Writer", "Technical Writer", "Editor", "Communicator"];
 
 function getElById(id) {
     let el = document.getElementById(id);
